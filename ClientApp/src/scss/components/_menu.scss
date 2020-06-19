@@ -1,0 +1,23 @@
+select {
+  font: normal 20px/30px "Rokkitt", serif;
+  color: #333;
+  padding: 5px;
+  margin: 0 10px 20px;
+}
+
+option {
+  margin-bottom: 5px;
+}
+
+#submit {
+  border: none;
+  background: #57b5f9;
+  color: #fff;
+  font: normal 23px/34px "Rokkitt", serif;
+  padding: 5px 20px;
+  cursor: pointer;
+
+  &:hover {
+    background: #48a6cb;
+  }
+}
