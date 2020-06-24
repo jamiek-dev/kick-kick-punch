@@ -1,0 +1,108 @@
+.player-box {
+  width: 450px;
+  height: 450px;
+  float: left;
+  position: relative;
+
+  input {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+}
+
+.player {
+  position: absolute;
+  height: 450px;
+  width: 300px;
+  top: 25px;
+
+  img {
+    position: relative;
+  }
+
+  p {
+    font-size: 24px;
+    text-align: center;
+    width: 90px;
+    margin: 175px auto 0;
+  }
+}
+
+/* Player 1 */
+#player-1 {
+  z-index: 10;
+}
+
+#player1-meter {
+  float: left;
+
+  &.life-meter {
+    div {
+      float: left;
+    }
+
+    p {
+      span {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+#p1-actions {
+  left: 0;
+  top: 100px;
+  position: absolute;
+  font-size: 20px;
+}
+
+#player-1 .player {
+  right: 25px;
+
+  img {
+    left: 100px;
+  }
+}
+
+/* Player 2 */
+#player-2 {
+  z-index: 5;
+}
+
+#player2-meter {
+  float: right;
+  text-align: right;
+
+  &.life-meter {
+    div {
+      float: right;
+    }
+
+    p {
+      span {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .health-bar span {
+    float: right;
+  }
+}
+
+#p2-actions {
+  right: 0;
+  top: 100px;
+  position: absolute;
+  text-align: right;
+  font-size: 20px;
+}
+
+#player-2 .player {
+  left: 25px;
+
+  img {
+    right: 100px;
+  }
+}

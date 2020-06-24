@@ -1,2 +1,3 @@
-# kick-kick-punch
-Online version of high-kick, low-kick, punch
+# Kick Kick Punch
+
+Online version of [high-kick, low-kick, punch](https://github.com/jamiek-dev/highkick-lowkick-punch)

@@ -1,0 +1,17 @@
+#notification-box {
+  height: 220px;
+  text-align: center;
+  padding-top: 70px;
+
+  p {
+    font-size: 50px;
+    display: none;
+    color: #57b5f9;
+
+    span {
+      font-size: 80px;
+      display: block;
+      margin-top: 40px;
+    }
+  }
+}

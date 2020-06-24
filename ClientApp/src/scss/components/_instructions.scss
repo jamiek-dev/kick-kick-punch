@@ -1,0 +1,40 @@
+.desc {
+  position: absolute;
+
+  &:first-child {
+    left: 370px;
+    top: 60px;
+  }
+
+  &:nth-child(2) {
+    top: 0;
+    right: -130px;
+  }
+
+  &:nth-child(3) {
+    top: 465px;
+    left: -140px;
+  }
+
+  &:nth-child(4) {
+    top: 200px;
+    right: -130px;
+  }
+
+  &:nth-child(5) {
+    top: 40px;
+    left: -55px;
+  }
+
+  &:nth-child(6),
+  &:nth-child(7) {
+    top: 670px;
+    right: 0;
+    cursor: pointer;
+    z-index: 200;
+  }
+
+  &:nth-child(6) {
+    display: none;
+  }
+}
